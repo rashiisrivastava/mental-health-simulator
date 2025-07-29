@@ -2,7 +2,7 @@
 
 A simple and responsive mood tracking web app where users can select their mood, view motivational thoughts, and visualize their emotional journey.
 ---
-## 🔗 Live Website
+## 🔗 Live Website : https://rashiisrivastava.github.io/mental-health-simulator/
 ---
 ## 🛠 Tech Stack:HTML, CSS, JavaScript, Chart.js, localStorage API
 ---
