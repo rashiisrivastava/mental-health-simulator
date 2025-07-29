@@ -25,7 +25,8 @@ A simple and responsive mood tracking web app where users can select their mood,
 <img width="1913" height="917" alt="image" src="https://github.com/user-attachments/assets/45bac27a-9c2e-4b68-9df0-0b8abb263604" />
 <img width="1879" height="910" alt="image" src="https://github.com/user-attachments/assets/7ad7f390-8995-4a5b-881a-fd2ce9a54ac8" />
 <img width="1901" height="922" alt="image" src="https://github.com/user-attachments/assets/d29649ff-622d-4eea-9039-bc9126a2b283" />
-<img width="936" height="843" alt="image" src="https://github.com/user-attachments/assets/19f6d11f-3d4b-4105-ab64-8717a4ee1bb2" />
+<img width="1598" height="864" alt="image" src="https://github.com/user-attachments/assets/e45e713c-2a88-4dda-ab16-6db6168d1274" />
+
 
 
 
