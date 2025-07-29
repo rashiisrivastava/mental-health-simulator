@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="login-screen" id="loginScreen">
+      <h2>Mood Tracker</h2>
+      <input type="text" id="usernameInput" placeholder="Enter your username" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div class="main-app hidden" id="mainApp">
+      <div class="top-bar">
+        <span id="greeting"></span>
+        <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+        <button onclick="logout()">Logout</button>
+      </div>
+
+      <h3>How are you feeling today?</h3>
+      <div class="mood-options">
+        <button onclick="logMood('😊')">😊 Happy</button>
+        <button onclick="logMood('😔')">😔 Sad</button>
+        <button onclick="logMood('😡')">😡 Angry</button>
+        <button onclick="logMood('😌')">😌 Relaxed</button>
+        <button onclick="logMood('😫')">😫 Stressed</button>
+        <button onclick="logMood('😕')">😕 Confused</button>
+      </div>
+
+      <div class="thought-box" id="thoughtBox"></div>
+
+      <canvas id="moodChart"></canvas>
+
+      <h4>Assistance</h4>
+      <div class="assistance-box" id="assistanceBox">
+        Click a mood to get personalized assistance!
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
